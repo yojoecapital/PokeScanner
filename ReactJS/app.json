@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PokeScanner",
+    "slug": "PokeScanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ps.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/ps.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ps.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ps.png"
+    }
+  }
+}
